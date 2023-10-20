@@ -2,6 +2,20 @@
 
 This repository shows an example of using Contrak to track smart contract deployments done with Foundry.
 
+### Install the Contrak CLI
+
+Install from NPM [@contrak/cli](https://www.npmjs.com/package/@contrak/cli)
+
+```
+npm i -g @contrak/cli
+```
+
+Test that the installation worked in your terminal.
+
+```
+contrak
+```
+
 ### Environment setup
 
 Set the environment variables in your deployment environment.
@@ -33,6 +47,18 @@ forge create --json --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed
 ```
 
 Note the private key is the default key from the local network, you should never hard code private keys.
+
+On success you should see an output in your terminal similar to the one below.
+
+```
+forgeOutput {
+  deployer: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  deployedTo: '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853',
+  transactionHash: '0x34178d4a5b6f5a9a505f9158f3cc8f64f9374bd6d9ea0218fa33651a137cc3da'
+}
+Contrak: Contract Connected
+Sent Contract Details to:  https://contrak.xyz/api
+```
 
 ### Viewing your Contracts
 
