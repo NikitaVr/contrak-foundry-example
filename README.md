@@ -63,3 +63,6 @@ Sent Contract Details to:  https://contrak.xyz/api
 ### Viewing your Contracts
 
 Once the create command has run, you can go to the `CONTRAK_URL` to view your smart contracts.
+
+<img width="795" alt="image" src="https://github.com/NikitaVr/contrak-foundry-example/assets/10101970/994cb338-23c2-49bf-aea1-63c0f9c6f2d2">
+
