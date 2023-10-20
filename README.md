@@ -2,6 +2,10 @@
 
 This repository shows an example of using Contrak to track smart contract deployments done with Foundry.
 
+### Install Foundry
+
+Follow the installation guide inside of the [Foundry Book
+](https://book.getfoundry.sh/getting-started/installation)
 ### Install the Contrak CLI
 
 Install from NPM [@contrak/cli](https://www.npmjs.com/package/@contrak/cli)
