@@ -6,6 +6,7 @@ This repository shows an example of using Contrak to track smart contract deploy
 
 Follow the installation guide inside of the [Foundry Book
 ](https://book.getfoundry.sh/getting-started/installation)
+
 ### Install the Contrak CLI
 
 Install from NPM [@contrak/cli](https://www.npmjs.com/package/@contrak/cli)
@@ -27,8 +28,8 @@ Set the environment variables in your deployment environment.
 Contrak will automatically load any .env file in the directory you run the commands from. You can copy over the .env.example file and change the values to point to your Contrak server.
 
 ```
-CONTRAK_URL=https://contrak.xyz // replace with your server url
-CONTRAK_API_URL=https://contrak.xyz/api // replace with your server url
+CONTRAK_URL=https://demo.contrak.xyz // replace with your server url
+CONTRAK_API_URL=https://demo.contrak.xyz/api // replace with your server url
 ```
 
 ### Foundry Create
@@ -69,4 +70,3 @@ Sent Contract Details to:  https://contrak.xyz/api
 Once the create command has run, you can go to the `CONTRAK_URL` to view your smart contracts.
 
 <img width="795" alt="image" src="https://github.com/NikitaVr/contrak-foundry-example/assets/10101970/994cb338-23c2-49bf-aea1-63c0f9c6f2d2">
-
